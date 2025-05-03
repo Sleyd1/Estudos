@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>aprendendo a fazer imagens dinamicas</h1>
+    <p>tentando abrir o sites em tamanhos de telas diferentes</p>
+    <!--tome cuidado na hora de fazer o codigo, para fazer as imagens de forma dinamica comece da tela menor para a amior -->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="imagen de uma letra P">
+    </picture>
+<!--usando a tag picture dentro dela colocamos a imagen padrao logo apos adicionamos os source com as outra imagen para telas pequenas, a maior tela começa em baixo-->
+
+
+
+
+   <h2>reproduzir audio</h2>
+
+<!--<audio src="midia/Crystaline-Quincas-Moreira.mp3" controls autoplay></audio>-->
+
+
+
+   <audio preload="metadata" controls loop>
+    <!--nao se esqueca de converter o audios em varias fontes diferentes, cada navegador pode ser compatival com fontes da audio diferentes.-->
+<source src="midia/Crystaline-Quincas-Moreira.mp3" type="audio/mpeg">
+
+<source src="midia/Crystaline-Quincas-Moreira.mp3" type="audio/ogg">
+<!--aqui seria:<source src="midia/Crystaline-Quincas-Moreira.ogg" type="audio/ogg">-->
+<source src="midia/Crystaline-Quincas-Moreira.mp3" type="audio/wav">
+<!--aqui seria: <source src="midia/Crystaline-Quincas-Moreira.wav" type="audio/wav">-->
+<p>nao foi possivel carregar o audio</p>
+   </audio>
+
+</body>
+</html>
