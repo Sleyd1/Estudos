@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses e elementos</title>
+    <style>
+
+        /*
+        pesoudo-class = :
+        pesoudo-element = :: 
+        clildren = >
+        
+        
+        */
+        a {
+            color:rgb(0, 64, 255);
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited {
+            color: rgb(255, 127, 127);
+        }
+
+        a:hover {
+            color: aquamarine;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        a::after {
+            content: ' link';
+        }
+
+        a::before {
+            content: '> ';
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://br.pinterest.com/0975redfgyui/" target="_blank">Pinterest</a></li>
+        <li><a href="https://www.youtube.com/@wesleyjunio4031" target="_blank">Youtube</a></li>
+        <li><a href="https://chromewebstore.google.com/" target="_blank">git</a></li>
+    </ul>
+</body>
+</html>

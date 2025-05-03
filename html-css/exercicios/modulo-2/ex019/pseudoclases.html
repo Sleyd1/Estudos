@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        /*
+        margin = espaços entre os elementos de fora da borda
+        
+        padding = espaço entre as borda 
+
+        width = largura
+        height = altura
+        
+        */
+        div {
+            background-color: #2e4756c4;
+            margin: 20px;
+            padding: 20px;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+        }
+        div > p {
+            display: none;
+        }
+
+        #aniamcaoa {
+            color: #FEE440;
+        }
+
+        #aniamcaob {
+            color: #00F5D4;
+        }
+
+        #animacaoc {
+            color: #00BBF9;
+        }
+
+        div:hover > p {
+            display: block;
+            
+        }
+
+        div:hover {
+            background-color: #3C7A89;
+        }
+
+    </style>
+</head>
+<body>
+    <div>A
+        <p id="aniamcaoa">Ola Mundo!</p>
+    </div>
+    <div>B
+        <p id="aniamcaob">Ola Mundo</p>
+    </div>
+    <div>C
+        <p id="animacaoc">Ola Mundo</p>
+    </div>
+</body>
+</html>

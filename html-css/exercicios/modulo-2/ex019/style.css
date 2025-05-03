@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+ id em css = #
+ class em css = .
+
+*/
+
+body {
+    background-color: #DBC2CF;
+    background-image:linear-gradient(to right,#DBC2CF,#9FA2B2);
+}
+
+#principal {
+    text-align: center;
+    color: #3C7A89;
+}
+
+.titulo {
+    color: #16262ed8;
+}
+
+.subtitulo {
+    color: #2e4756c4;
+}
+
+.center {
+    text-align: center;
+}

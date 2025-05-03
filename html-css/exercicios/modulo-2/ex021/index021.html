@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        /* 
+        Tags box-level por padrao tem o display block, ou seja, ocupam toda a largura disponivel
+        e quebram a linha, enquanto os inline-level ocupam apenas o espaço do conteudo e não quebram a linha.
+
+        Tag inline-level não podem ter largura e altura definidas, apenas margin e padding.
+        tag box-level podem ter largura e altura definidas, margin e padding.
+
+        para uma tag inline-level se comportar como box-level, é necessário usar o display block ou inline-block.
+        para uma tag box-level se comportar como inline-level, é necessário usar o display inline ou inline-block.    
+        */
+        h1 {
+            background-color: blueviolet;
+            height: 220px;
+            width: 220px;
+            padding: 50px 50px 30px 60px;
+            border: solid 15px;
+            outline: 10px double rgb(0, 255, 0);
+            margin: 20px auto 10px auto;
+        }
+        
+        a {
+            background-color: rgb(94, 255, 0);
+            border: solid 20px;
+            margin: 20px;
+            padding: 3px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Box-level</h1>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio illo animi eos sequi perferendis ratione reprehenderit unde! Voluptatem minus fugit quo iusto eos. Doloremque, non labore perspiciatis numquam adipisci magni! <a href="3">inline-level</a></P>
+</body>
+</html>

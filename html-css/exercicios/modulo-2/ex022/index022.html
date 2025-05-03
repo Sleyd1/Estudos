@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouping Tags</title>
+
+    <style>
+       /* 
+       
+       background-image: url('●⌇\ Guts2.jpg'); = Define a imagem de fundo
+
+        background-size: cover; = Faz a imagem cobrir toda a tela
+        
+        background-repeat: no-repeat; Não repete a imagem de fundo 
+
+        background-attachment: fixed; = Faz a imagem de fundo ficar fixa na tela
+
+        background-position: center; = Centraliza a imagem de fundo 
+        
+        */
+
+
+
+        /* testar o código
+        body {
+         background-image: url('●⌇\ Guts2.jpg'); /* Define a imagem de fundo
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        transition: transform 0.1s ease-in-out;
+            
+            }
+
+        body:hover {
+            transform: translateX(5px) translateY(5px);
+        }
+        
+        */
+        body {
+            background-color: #86626E; /* Define a cor de fundo */
+        }
+
+
+        header {
+            background-color: #DBAFC1; /* Define a cor de fundo do cabeçalho */
+            padding: 20px; /* Adiciona preenchimento ao cabeçalho */
+            text-align: center; /* Centraliza o texto no cabeçalho */
+            border-radius: 7px 0px;
+        }
+
+        nav {
+            box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.282); /* Adiciona sombra ao menu de navegação */
+           
+        }
+
+        ul {
+            list-style: none; /* Remove os marcadores da lista */
+            padding: 10px; /* Remove o preenchimento padrão */
+            background-color: #86626E;
+            margin: 0px; /* Remove a margem padrão */
+        }
+        li {
+            display: inline; /* Exibe os itens da lista em linha */
+            margin-right: 10px; /* Adiciona espaço entre os itens */
+        }
+
+        a {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #DEFFFC; /* Define a cor do texto dos links */
+        }
+
+        main {
+            padding: 20px; /* Adiciona preenchimento ao conteúdo principal */
+            background-color: #DBAFC1; /* Define a cor de fundo do conteúdo principal */
+            margin-top: 10px;
+            border-radius: 7px 0px;
+            box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.193);
+
+        }
+
+        article {
+            background-color: #86626E; /* Define a cor de fundo dos artigos */
+            padding: 10px; /* Adiciona preenchimento aos artigos */
+            margin-bottom: 10px; /* Adiciona espaço entre os artigos */
+            box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.193);
+        }
+
+    
+
+        article > h3 {
+          color: #E2E4F6;
+        }
+
+        article > p {
+        color: #E2E4F6;
+        
+        }
+
+        aside {
+            background-color: #DBAFC1; /* Define a cor de fundo do conteúdo complementar */
+            padding: 10px; /* Adiciona preenchimento ao conteúdo complementar */
+            margin-top: 10px; /* Adiciona espaço acima do conteúdo complementar */
+            box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.193);
+            border-radius: 0px 7px;
+        }
+
+        footer {
+    
+            padding: 10px; /* Adiciona preenchimento ao rodapé */
+            text-align: center; /* Centraliza o texto no rodapé */
+            margin-top: 10px; /* Adiciona espaço acima do rodapé */
+            color: #E2E4F6;
+
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Bem-vindo ao Meu Site</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- 
+    A tag <nav> em HTML5 é usada para definir uma seção de navegação dentro de um documento. 
+    Ela geralmente contém links para outras partes do site ou para páginas externas, ajudando os usuários a navegar pelo conteúdo. 
+    -->
+</header>
+
+<!-- 
+A tag <header> em HTML5 é usada para definir a seção de cabeçalho de uma página ou de um elemento específico. 
+Ela geralmente contém elementos como logotipos, títulos, menus de navegação ou outros conteúdos introdutórios relacionados. 
+Pode ser utilizada em várias partes de uma página para organizar o conteúdo de forma semântica.
+-->
+
+<main>
+    <section id="home" class="conteudo">
+        <h2>Início</h2>
+        <p>Bem-vindo à página inicial do nosso site.</p>
+    </section>
+
+    <section id="about" class="conteudo">
+        <h2>Sobre</h2>
+        <p>Informações sobre nossa empresa e equipe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci at aliquid assumenda qui tempore non sint perferendis vero numquam, provident, quisquam inventore? Inventore voluptas enim, harum rem quas at.</p>
+    </section>
+    <!-- 
+    A tag <article> em HTML5 é usada para representar um conteúdo independente e autocontido, 
+    como postagens de blog, artigos de notícias, entradas de fórum ou qualquer outro conteúdo 
+    que possa ser distribuído ou reutilizado de forma independente. 
+
+    Ela é ideal para ser usada em situações onde o conteúdo tem um significado próprio e pode 
+    existir fora do contexto do documento principal, como em feeds RSS ou compartilhamentos.
+
+    No exemplo acima, a tag <article> foi usada para estruturar postagens de blog, 
+    cada uma representando um artigo independente dentro da seção "Blog".
+    -->
+    <section id="blog">
+
+        <h2>Blog</h2>
+        <article>
+            <h3>Postagem 1</h3>
+            <p>Este é o conteúdo da primeira postagem do blog.</p>
+        </article>
+        <article>
+            <h3>Postagem 2</h3>
+            <p>Este é o conteúdo da segunda postagem do blog.</p>
+        </article>
+    </section>
+
+
+    <section id="services" class="conteudo">
+        <h2>Serviços</h2>
+        <p>Detalhes sobre os serviços que oferecemos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt laborum quasi debitis nihil exercitationem dicta cupiditate, cum similique assumenda dolor, voluptas omnis sint voluptate recusandae officia quibusdam excepturi atque earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quaerat, voluptates et, consequuntur esse minus assumenda deleniti voluptatum inventore, nisi perspiciatis laborum repudiandae consectetur repellendus ducimus ipsa minima blanditiis nihil!</p>
+    </section>
+    <!-- 
+    A tag <section> em HTML5 é usada para definir uma seção temática ou agrupamento de conteúdo dentro de uma página. 
+    Ela é geralmente utilizada para dividir o conteúdo em blocos logicamente relacionados, como capítulos, cabeçalhos, 
+    ou qualquer outra parte distinta de um documento. É ideal para melhorar a organização e a semântica do HTML.
+    -->
+
+</main>
+
+<!-- 
+A tag <main> em HTML5 é usada para delimitar o conteúdo principal de um documento ou aplicação. 
+Ela deve conter o conteúdo único e relevante da página, excluindo elementos como cabeçalhos, rodapés, barras laterais e menus de navegação. 
+Essa tag ajuda na acessibilidade e na otimização para motores de busca, indicando a parte mais importante da página. 
+-->
+
+<aside>
+    <h2>Notícias</h2>
+    <p>Últimas atualizações e novidades. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi accusamus maiores debitis exercitationem illo dolores explicabo blanditiis tempore dolor. Doloremque tempora quibusdam blanditiis repellat omnis facere voluptatum sunt ex.</p>
+</aside>
+<!-- 
+A tag <aside> em HTML5 é usada para representar conteúdo complementar ou secundário relacionado ao conteúdo principal da página. 
+Ela geralmente é utilizada para exibir informações adicionais, como barras laterais, links relacionados, anúncios, ou qualquer outro conteúdo que não seja essencial, 
+mas que enriqueça a experiência do usuário. 
+-->
+<footer>
+    <p>&copy; 2025 Desenvolvido por Sleyd. Todos os direitos reservados.</p>
+</footer>
+</html>
