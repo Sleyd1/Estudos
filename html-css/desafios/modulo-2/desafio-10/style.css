@@ -1,0 +1,178 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'android';
+    src: url(idroid.otf) format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(132, 225, 173);
+
+    
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    word-spacing: 5px;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, rgb(60, 217, 131), rgb(26, 92, 56));
+    color: white;
+    padding: 1px;
+  
+}
+
+header > p, a {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 100%;
+   /* max-width: 600px;*/
+    display: block;
+    margin: auto;
+}
+
+
+
+#centraliza > h1, p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+
+
+li > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+    transition: 0.6s;
+
+    
+}
+
+li > a:hover {
+    color: rgb(31, 95, 61);
+    transition: 0.6s;
+
+}
+
+
+.animaca {
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: 0.7s;
+
+}
+
+.animaca:hover {
+    transition: 0.5s;
+    background-color: rgb(58, 179, 112);
+    border-radius: 2px 2px 0 0;
+}
+
+
+.coloracao {
+    font-family: 'android';
+    font-size: 2em;
+    color: rgb(31, 95, 61);
+}
+
+/*width: 735px;*/
+
+.areaprincipal {
+    max-width: 735px;
+}
+
+
+@media (max-width: 735px) {
+    .areaprincipal {
+        max-width: 100%;
+
+        
+    }
+
+    img{
+        
+        max-width: 100%;
+        
+    }
+
+    p {
+        text-align: justify;
+        word-spacing: 0px;
+    }
+    
+    
+}
+
+
+
+aside > div {
+    background-color: rgb(197, 235, 214);
+    margin: 0 auto;
+    max-width: 735px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+div > h3 {
+    background-color: rgb(47, 168, 102);
+    color: white;
+    padding: 12px;
+}
+
+
+#lista1 {
+   width: 192px;
+   display: inline-block;
+   margin: 0 0 0 15px;
+}
+
+#lista2 {
+    width: 192px;
+    display: inline-block;
+    margin: 0 0 0 200px;
+    
+}
+
+.linkfor {
+    text-decoration: none;
+    color: rgb(31, 95, 61);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.linkfor:hover {
+
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    margin: auto;
+    padding: 5px;
+}
