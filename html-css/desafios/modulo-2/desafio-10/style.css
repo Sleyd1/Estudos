@@ -95,7 +95,7 @@ li.animaca > a:hover {
 }
 
 
-.animaca {
+li.animaca {
     display: inline-block;
     margin: 0px;
     padding-bottom: 5px;
@@ -111,6 +111,11 @@ li.animaca > a:hover {
 }
 
 /* formatação do conteudo principal */
+
+main.areaprincipal {
+    max-width: 735px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+}
 
 main {
     padding: 20px;
@@ -139,6 +144,23 @@ main a {
     padding: 2px 4px;
 }
 
+a.linkfor {
+    text-decoration: none;
+    color: var(--cor6);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+a.linkfor:hover {
+
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+a.linkfor::after {
+    content: '\00A0\🔗';
+}
+
 
 
 img {
@@ -149,26 +171,37 @@ img {
 
 
 
-
-
+/*A class esta inserida no h1 h2 dentro  da main*/
 .coloracao {
     font-family: 'android';
     font-size: 2em;
     color: rgb(31, 95, 61);
 }
 
+/*A class esta inserida na tag h2 dentro da tag main*/
 .degrade {
     background-image: linear-gradient(to right, var(--cor3), transparent);
     font-size: 1.5em;
     
 }
 
-
-.areaprincipal {
-    max-width: 735px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.39);
+div#video {
+    background-color: var(--cor5);
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
 }
 
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    width: 90%;
+    height: 90%;
+
+}
 
 
 aside > div {
@@ -198,49 +231,7 @@ aside li::before {
     content: '> ';
 }
 
-#lista1 {
-    width: 201px;
-   display: inline-block;
-   margin: 0 0 0 15px;
-}
-
-
-.linkfor {
-    text-decoration: none;
-    color: var(--cor6);
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-.linkfor:hover {
-
-    text-decoration: underline;
-    transition: 0.2s;
-}
-
-a.linkfor::after {
-    content: '\00A0\🔗';
-}
-
-div#video {
-    background-color: var(--cor5);
-    margin: 0 -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 50%;
-    position: relative;
-}
-
-div#video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-
-    width: 90%;
-    height: 90%;
-
-}
-
-
+/* formatações do rodape*/
 footer {
     background-color: #1A5C38;
     color: white;
@@ -266,22 +257,6 @@ footer > p {
     p {
         text-align: justify;
         word-spacing: 0px;
-    }
-
-    #lista2 {
-        
-        margin: 0 0 0 156px;
-    }
-    
-    
-}
-
-@media (max-width: 600px) {
-
-    #lista2 {
-        
-        margin: 0 0 0 46px;
-    }
-    
+    }  
     
 }
