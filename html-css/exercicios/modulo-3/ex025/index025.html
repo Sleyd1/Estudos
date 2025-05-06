@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Imagem de fundo</title>
+    <style>
+        body {
+            border: 2px solid black;
+            height: 100vh; /* A altura do body será 100% da altura da viewport */
+            background-image: url('https://embratur.com.br/wp-content/uploads/2022/07/Embratur-Brasil-ultrapassa-marca-de-1-milhao-de-turistas-estrangeiros-recebidos-pela-primeira-vez-desde-2020-1.png');
+            background-color: black;
+            background-position: top center;
+            background-repeat: no-repeat; /* Não repete a imagem de fundo */
+            background-size: cover;
+            background-attachment: fixed; /* A imagem de fundo ficará fixa na tela ao rolar a página */
+
+            /*
+            valores de background-attachment
+
+            ° fixed: a imagem de fundo ficará fixa na tela ao rolar a página.
+            ° scroll: a imagem de fundo se moverá com o conteúdo da página (comportamento padrão).
+            ° local: a imagem de fundo se moverá com o elemento que a contém.
+            ° initial: o valor padrão do background-attachment.
+            inherit: herda o valor do elemento pai.
+            */
+
+            /*
+            shorthand para background
+            color > iamge > position > repeat > size > attachment;
+
+            obs: size pode acabar nao funcionando em alguns navegadores, por isso é bom usar o background-size separado.
+            */
+
+            /*https://static.vecteezy.com/ti/vetor-gratis/p1/6326651-tropical-praia-sundown-horizonte-paisagem-vetor.jpg*/
+        }
+
+        main {
+            background-color: rgb(255, 255, 255); /* Cor de fundo branca com opacidade de 0.8 */
+            padding: 20px; /* Espaçamento interno de 20px */
+            border-radius: 10px; /* Bordas arredondadas */
+            max-width: 400px; /* Largura máxima do elemento main */
+            margin: auto; /* Centraliza o elemento main na tela */
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <main>
+        <h1>Testando imagens de fundo</h1>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci, totam aspernatur, doloremque distinctio dolorum expedita amet excepturi molestias quos cum dicta! Natus dolor facilis odio totam error pariatur odit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem placeat voluptas ullam, iure explicabo quisquam eligendi saepe beatae ipsum ab esse voluptatibus sed consequuntur accusamus enim dolore quas pariatur blanditiis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam deserunt, amet quisquam, porro recusandae quos saepe quia temporibus illo dolorem rem suscipit provident unde. Tenetur nemo dolor illum nesciunt ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, error minus. Consequatur nulla dolores doloribus! Tempora rem a distinctio! Asperiores maxime perspiciatis repellat, qui vel distinctio! Assumenda iure corrupti debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus ex ipsam! Esse aliquid inventore cupiditate autem nam temporibus molestiae similique ad veritatis est beatae corrupti recusandae, quaerat officiis nulla!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur quidem minima, delectus mollitia architecto iste. Illum necessitatibus quaerat illo doloremque corrupti ullam vel deserunt dolor iste, dolore id repudiandae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptatem earum explicabo quod nesciunt possimus officia sit, quos perferendis, aspernatur ipsum adipisci? Dignissimos suscipit sequi libero autem tenetur beatae culpa! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis labore unde eius eligendi rerum laboriosam nihil! Debitis dolore minima, deserunt doloremque, totam sit delectus, nesciunt hic nobis iste unde officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, beatae tempore repudiandae optio non architecto voluptatibus temporibus. Asperiores nihil consectetur quo, quasi soluta sequi aliquid repellendus perspiciatis animi exercitationem velit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, reprehenderit. Quia blanditiis nam sit optio, est nobis obcaecati numquam qui tempore ex molestiae earum placeat, aperiam, minus ipsa? Mollitia, voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cum dolorum ut ad beatae est? Incidunt maiores, quam doloribus eligendi atque quos in non? Velit quasi omnis alias dolores inventore.</p>
+    </main>
 </body>
 </html>
