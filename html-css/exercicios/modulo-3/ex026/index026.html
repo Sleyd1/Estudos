@@ -9,16 +9,53 @@
             background-color: #bb00ff;
             background-image: url('target001.png');
             background-size: 100% 100%;
-            height: 500px;
+            height: 97vh;
         }
 
         #content {
-           background-color: rgb(0, 4, 255);
-            width: 200px; /* Largura do conteúdo */
-            height: 150px;
+            position: absolute;
+            background-color: rgb(0, 4, 255);
+            width: 250px; /* Largura do conteúdo */
+            height: 200px;
             background-image: url('target001.png'); /* Imagem de fundo do conteúdo */
             background-size: 100% 100%; /* A imagem de fundo cobrirá todo o conteúdo */
+            top: 50%; /* Posiciona o topo do conteúdo no meio da tela */
+            left: 50%; /* Posiciona a esquerda do conteúdo no meio da tela */
+            transform: translate(-50%, -50%); /* Move o conteúdo para o centro */
         }
+        /*
+        valores de position:
+
+        ° static: padrão, não é posicionado de forma especial
+        ° relative: posicionado em relação à sua posição original 
+        ° absolute: posicionado em relação ao elemento pai mais próximo que não seja estático
+        ° fixed: posicionado em relação à janela de visualização (viewport)
+        ° sticky: posicionado em relação ao seu local original, mas se torna fixo quando atinge um certo ponto de rolagem.
+
+        
+        
+        */
+
+        /*
+        valores de transform:
+        
+        O atributo transform no CSS é usado para aplicar transformações em elementos HTML, como mover, girar, redimensionar ou inclinar. Ele é muito útil para criar efeitos visuais e posicionar elementos de forma precisa.
+
+        O valor translate(x, y) dentro de transform é usado para mover um elemento no eixo horizontal (x) e no eixo vertical (y). Ele desloca o elemento em relação à sua posição original.
+
+        Como funciona o translate:
+        
+
+        translate(-50%, -50%): Move o elemento 50% para a esquerda no eixo X e 50% para cima no eixo Y. Os valores percentuais são baseados no tamanho do próprio elemento.
+        Você também pode usar valores em pixels, como translate(20px, 30px), para deslocar o elemento 20px para a direita e 30px para baixo.
+
+        Exemplo prático:
+         
+        No seu código, o transform: translate(-50%, -50%) é usado para centralizar o elemento #content. Isso funciona porque:
+
+        top: 50% e left: 50% posicionam o canto superior esquerdo do elemento no centro do contêiner.
+        O translate(-50%, -50%) ajusta o elemento para que o centro dele fique exatamente no centro do contêiner.
+        */
     </style>
     
 </head>
