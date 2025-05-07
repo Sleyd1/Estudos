@@ -57,21 +57,41 @@ section {
 
  section > p {
     font-family: var(--font-texto);
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.149);
 
  }
 
 section.areaimag {
     background-color: rgba(0, 0, 0, 0.889);
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 
 }
 
 section.areaimag > p {
-    background-color: rgb(112, 112, 91);
+    background-color: rgba(27, 27, 25, 0.695);
     color: white;
     width:  400px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-shadow: 2px 1px 2px black;
+    
 
+}
+
+#image1 {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+#image2 {
+   background-image: url(
+    'imagens/background002.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 footer {
