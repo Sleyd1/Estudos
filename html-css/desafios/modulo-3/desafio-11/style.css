@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Kaushan+Script&display=swap');
 
+:root {
+  --font-titulo: 'Kaushan Script', cursive;--font-texto: 'Borel', cursive;--font-padrao: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
 * {
@@ -11,7 +14,8 @@
 }
 html, body {
   min-height: 100vh;
-    font-family: 'Kaushan Script', cursive;
+  font-family: var(--font-padrao);
+  
 }
 
 a {
@@ -33,13 +37,14 @@ header h1 {
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font-titulo);
 }
 
 header p {
     color: white;
     text-align: center;
     padding-bottom: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
 }
 
@@ -49,8 +54,9 @@ section {
     padding-left: 20px;
     line-height: 2em;
 }
+
  section > p {
-    font-family:"Borel", cursive;
+    font-family: var(--font-texto);
 
  }
 
