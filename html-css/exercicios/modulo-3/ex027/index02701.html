@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        caption {
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: #8780806e;
+        }
+
+        thead , tfoot {
+            background-color: #292929;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+       tbody > tr:nth-child(even) { /*outros valores odd, 2n, 3n, 2n-1, 4n etc.*/
+            background-color: #f2f2f2;
+        }
+
+        .alinhamento {
+            text-align: right;
+        }
+
+        </style>
+</head>
+<body>
+    <h1>Aprendendo a trabalhar com tabelas grandes</h1>
+    <!--Anotomia para tabelas grandes
+    table
+        caption - título da tabela
+        tr (table row) - linha da tabela
+        td (table data) - célula da tabela
+        th (table header) - cabeçalho da tabela
+        thead (table head) - cabeçalho da tabela
+        tbody (table body) - corpo da tabela
+        tfoot (table foot) - rodapé da tabela
+    
+        dados = td
+        titulo = th
+
+        valores de scope
+        scope="col" - cabeçalho de coluna
+        scope="row" - cabeçalho de linha
+        scope="rowgroup" - cabeçalho de grupo de linhas
+        scope="colgroup" - cabeçalho de grupo de colunas
+    
+    -->
+
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
+                <th scope="col">% da pop total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> <!-- Linha 1 -->
+                <td>São paulo</td> <!-- Celula 1-->
+                <td class="alinhamento">45919049</td>
+                <td>21,9%</td>
+            </tr>
+            <tr> <!-- Linha 2 -->
+                <td>Minas Gerais</td>
+                <td class="alinhamento">21168791</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="alinhamento">17264943</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhamento">14873064</td>
+                <td>7,1%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+        <th scope="row">Total de Habitantes</th>
+        <td class="alinhamento"><strong>99225847</strong></td>
+        <td></td> 
+        </foot>
+        </table>
+        
+</body>
+</html>
