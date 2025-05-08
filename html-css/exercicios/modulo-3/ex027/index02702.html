@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        table {
+         border: 1px solid black;border-collapse: collapse;
+         width: 500px;
+         height: 350px;
+
+        }
+        td {
+            border: 1px solid black;
+            font-size: 2em;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhano com mesclagem de celulas</h1>
+
+    <!--
+    cosplan="2" mescla duas celulas na horizontal
+    rowspan="2" mescla duas celulas na vertical
+    
+    -->
+
+    <table>
+        <tr>
+            <td colspan="2">X</td>
+            <td>Y</td>
+            <td rowspan="2">Z</td>
+        </tr>
+        <tr>
+            <td>d</td>
+        <td>f</td>
+        <td>g</td>
+    
+        </tr>
+        <tr>
+            <td >j</td>
+            <td>e</td>
+            <td colspan="2">o</td>
+        </tr>
+        <tr>
+            <td>a </td>
+            <td>t</td>
+            <td colspan="2">k</td>
+        </tr>
+        <tr> 
+            <td>k</td>
+            <td>f</td>
+            <td colspan="2">l</td>
+        </tr>
+    </table>
+</body>
+</html>
