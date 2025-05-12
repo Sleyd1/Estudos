@@ -52,12 +52,14 @@ iframe {
     left: 60%;
     transform: translate(-49.3%, -49.3%);
     overflow: hidden;
+    border: none;
     clip-path: inset(0 32px 0 0);
-     
+
 
     
-
 }
+
+
 
 /*height: 210px;
   width: 290px;
