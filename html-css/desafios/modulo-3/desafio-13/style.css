@@ -6,9 +6,39 @@ body, html {
 }
 
 body {
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(imagens/target001.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 
 }
+
+.container {
+    height: 623px;
+    width: 310px;
+    background-image: url(imagens/frame-iphone.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    
+}
+
+iframe {
+    width: 332px;
+    height: 465px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-49.3%, -49.3%);
+
+}
+
+/*height: 210px;
+  width: 290px;
+ 
+  background-image: url(imagens/target001.png);
+    
+    background-repeat: no-repeat;
+    background-position: 100% 100%; */
