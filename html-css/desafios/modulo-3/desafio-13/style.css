@@ -28,6 +28,7 @@ div.icones {
     position: absolute;
     top: 2%;
     left: 91vw;
+    
 
 }
 
@@ -50,6 +51,11 @@ iframe {
     top: 50%;
     left: 60%;
     transform: translate(-49.3%, -49.3%);
+    overflow: hidden;
+    clip-path: inset(0 32px 0 0);
+     
+
+    
 
 }
 
