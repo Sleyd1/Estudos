@@ -24,14 +24,29 @@ img {
 
 }
 
-div.icones {
-    width: 55px;
-    position: absolute;
-    top: 2%;
-    left: 91vw;
-    
 
+body > div.icones {
+    text-align: right;
+    margin-right: 10px;
+   
 }
+
+div.icones img {
+     box-sizing: border-box;
+     transition: all 0.3s ease-in-out;
+}
+
+div.icones img:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    border: solid 2px #fff;
+    box-shadow: 0 0 5px #000000;
+}
+
+/* a propriedade cursor é usada para definir o tipo de cursor que será exibido quando o ponteiro do mouse estiver sobre um elemento. O valor pointer faz com que o cursor mude para o formato de uma "mãozinha" (normalmente usada para indicar links clicáveis). */
+
+
 
 .container {
     height: 623px;
@@ -46,15 +61,15 @@ div.icones {
 }
 
 iframe {
-    width: 332px;
+    width: 269px;
     height: 465px;
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 60%;
+    left: 50%;
     transform: translate(-49.3%, -49.3%);
     overflow: hidden;
     border: none;
-    clip-path: inset(0 32px 0 0);
+    clip-path: inset(0 1px 0 0);
 
 
     
