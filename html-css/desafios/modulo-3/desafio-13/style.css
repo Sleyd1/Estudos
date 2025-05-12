@@ -2,6 +2,7 @@
 
 body, html {
     height: 100vh;
+    width: 100vw;
     margin: 0;
    
 }
@@ -23,9 +24,10 @@ img {
 }
 
 div.icones {
+    width: 55px;
     position: absolute;
     top: 2%;
-    left: 90%;
+    left: 91vw;
 
 }
 
