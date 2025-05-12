@@ -1,15 +1,31 @@
 @charset "UTF-8";
 
 body, html {
-    height: 98vh;
+    height: 100vh;
+    margin: 0;
    
 }
 
 body {
-    background-image: url(imagens/target001.png);
+    background-image: url(imagens/fundo-madeira.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+
+}
+
+img {
+    width:50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+
+}
+
+div.icones {
+    position: absolute;
+    top: 2%;
+    left: 90%;
 
 }
 
