@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags</title>
+</head>
+<body>
+    <h1>Select, datalist e textarea em HTML</h1>
+
+    <form action="cadastro.php" method="post">
+        <label for="idestad">Estado:</label>
+        <select name="Estado" id="idestad">
+            <option value="Estado">- - - -Estado- - - -</option>
+            <optgroup label="Região Nordeste">
+                <option value="AL">
+                    <!--selected-->
+                </option>>Alagoas</option>
+                <option value="BH">Bahia</option>
+                <option value="Ce">Ceará</option>
+                <option value="MA">Maranhão</option>
+                <option value="PB">Paraíba</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do sul</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="profis">profissão:</label>
+        <input type="text" name="profi" id="profis">
+        <datalist>
+            <option>desenvolvedor front end</option>
+            <option value="">desenvolvedor back end</option>
+            <option value="">desenvolvedor Full stack</option>
+
+            <!--
+            datalist nos permite acrescentar uma nova opçao na caixa de texto.
+            -->
+        </datalist>
+        <br><br>
+
+        <br><br>
+        <label for="mens">mensagem</label><br>
+        <textarea name="mensagem" id="mens" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+    </form>
+</body>
+</html>
