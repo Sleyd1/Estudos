@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        div {
+            margin: 10px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Email e telefone</h1>
+
+    <form action="cadastro.php" method="post">
+        
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+               <label for="caixd">Email:</label> <input type="email" name="email" id="caixd" required>
+            </div>
+            <div><label for="telfone">telefone:</label> <input type="tel" name="tel" id="telfone" pattern="^\(\d{2}\)\d{5}-\d{4}$" placeholder="(xx)xxxxx-xxxx" required></div>
+        </fieldset>
+        
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+</body>
+</html>

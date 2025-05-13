@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Fomulario radio checkbox</h1>
+    <form action="cdastro.php" method="get">
+
+        <fieldset><legend>sexo</legend>
+
+        <input type="radio" name="sexo" id="masc" value="M" checked > 
+        <label for="masc">Masculino</label><br>
+
+        <input type="radio" name="sexo" id="femi" value="F">
+         <label for="femi">Feminino</label><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comida</legend>
+            <input type="checkbox" name="pizza" id="pizz">
+            <label for="pizz">Pizza</label><br>
+            <input type="checkbox" name="lasanha" id="lasanh">
+            <label for="lasanh">Lasanha</label><br>
+            
+            <input type="checkbox" name="Feijoada" id="faijo">
+            <label for="faijo">Feijoada</label><br>
+        </fieldset>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
