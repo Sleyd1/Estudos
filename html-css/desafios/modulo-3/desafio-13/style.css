@@ -61,12 +61,12 @@ div.icones img:hover {
 }
 
 iframe {
-    width: 269px;
-    height: 465px;
+    width: 273px;
+    height: 473px;
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-49.3%, -49.3%);
+    transform: translate(-50%, -49%);
     overflow: hidden;
     border: none;
     clip-path: inset(0 1px 0 0);
