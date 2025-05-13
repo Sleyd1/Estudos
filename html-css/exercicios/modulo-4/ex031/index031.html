@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Formularios</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="post">
+        <p><label for="nome">Nome:</label>
+            <input type="text" name="ursename" id="nome" placeholder="Digite seu nome" required minlength="5" maxlength="20" size="30">
+        </p>
+
+        <p><label for="data">Data:</label> <input type="date" name="date" id="data"></p>
+
+        <p><label for="hora">Horario:</label> <input type="time" name="time" id="hora"></p>
+
+        <p>Escolha uma cor:<input type="color" name="color" id="cor"></p>
+        
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"></p>
+    </form>
 </body>
 </html>
