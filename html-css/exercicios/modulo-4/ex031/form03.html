@@ -14,7 +14,11 @@
 <body>
     <h1>Formularios Range e file</h1>
     <form action="" method="post">
-        <div>volume: <input type="range" name="volume" id="vol" min="1" max="5" value="3"></div>
+
+        <div>volume:<input type="range" name="volume" id="vol" min="1" max="5" value="3" 
+            oninput="numb.innerHTML = Number(vol.value)">
+        <output id="numb"></output></div>
+
         <div>foto de perfil:<input type="file" name="image" id="imagem"></div>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
