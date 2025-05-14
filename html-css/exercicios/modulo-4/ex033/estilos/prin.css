@@ -14,3 +14,7 @@ body {
 article::after {
     content: 'Esse artigo foi impresso atraves do site WWW.PortaldeNotíciasLocal.com';
 }
+
+nav {
+    display: none;
+}
