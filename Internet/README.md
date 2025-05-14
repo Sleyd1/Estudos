@@ -26,7 +26,7 @@ descentralização das mesma. Assim, se o Pentágono fosse atingido, as informa�
 O ataque inimigo nunca aconteceu, mas oque o Departamento de Defesa dos Estados Unidos não sabia
 era que dava início ao maior fenômeno midiático do século 20, único meio de comunicação que em apenas 4 anos conseguiria atingir cerca de 50 milhões de pessoas.
 
-### O comoço de tudo
+### O começo de tudo
 
 A ARPANET funcionava através de sistema conhecido como chaveamento de pacotes, que é um sistema de trans de dados em rede de computadores no qual as informações são divididas em pequenos pacotes, que por sua vez contém:
 
