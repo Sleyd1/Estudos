@@ -9,7 +9,7 @@ Soviética, que antes eram alinados mas agora se tornam Inimigos.
 
 ### A Internet Veio Da Guerra
 
-Depois da segunda guerra, EUA e URSS começeram a ter seus desentimentos, dando origem a **Guerra Fria** em 1949. Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, qualquer mecanismo, qualquer invação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela ** União Soviética** e pelos 
+Depois da segunda guerra, EUA e URSS começeram a ter seus desentendimentos, dando origem a **Guerra Fria** em 1949. Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, qualquer mecanismo, qualquer invação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela ** União Soviética** e pelos 
 **Estados Unidos**: as duas superpotencias compreendiam a eficácia e a necessidade absoluta dos meios de comunicação.
 
 ![EUA VS URSS](https://static.wixstatic.com/media/b93bf1_bb19f05335f64f5191007bc95603c629~mv2.png/v1/fill/w_759,h_428,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b93bf1_bb19f05335f64f5191007bc95603c629~mv2.png)
