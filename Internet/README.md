@@ -79,7 +79,7 @@ Outro avanço alcançado pela RNP ocorreu em 2002. Nesse ano, o então president
 
 A partir de 2005, a comunicação entre os point of presence (PoPs) da rede começou a ser ampliada com o uso de tecnologia óptica, o que elevou a capacidade de operação a 11 Gbps. A base instalada de computadores no Brasil atinge 40 milhões, de acordo com pesquisa da Escola de Administração de Empresas de São Paulo da Fundação Getúlio Vargas. O número, que inclui computadores em empresas e residências, representa um crescimento de 25% sobre a base registrada no mesmo periodo do ano passado.
 
-O texto foi tirado do material em PDF do ![curso em video](https://github.com/gustavoguanabara/html-css/tree/master) no repositorio do github github.
+O texto foi tirado do material em PDF do 👉[gustavo guanabara](https://github.com/gustavoguanabara/html-css/tree/master) no repositorio do github.
 
 
 
