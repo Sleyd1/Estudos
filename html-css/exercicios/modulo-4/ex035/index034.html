@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="TelaM.css">
+
+</head>
+<body onresize="telaM()">
+    <header>
+        <h1>Titulo</h1>
+        <span class="material-symbols-outlined"  onclick="navegar()">
+menu
+</span>
+        <menu id="men">
+            <ul>
+                <li><a href="#" target="_blank">Area1</a></li>
+                <li><a href="#" target="_blank">Area2</a></li>
+                <li><a href="#" target="_blank">Area3</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium delectus nesciunt placeat quibusdam illo maiores beatae culpa laborum, harum ipsum labore totam ut corrupti itaque blanditiis? Odio, beatae quia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quae repudiandae perferendis cupiditate vel exercitationem provident tenetur reiciendis facilis, temporibus quidem porro dolores non accusantium perspiciatis itaque veniam eveniet recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quae, ratione numquam ad, excepturi, assumenda laborum corporis repellendus minus tenetur odio? Architecto at quo illum doloribus rem magni, atque tenetur.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nesciunt minima quia sequi amet, non aspernatur accusamus quidem aut, adipisci modi. Nam corporis dolore soluta quos illum doloremque distinctio consequatur.</p>
+        </article>
+    </main>
+
+    <script>
+        function navegar() {
+            if (men.style.display == 'block'){
+                men.style.display = 'none';
+
+            } else {
+                men.style.display = 'block'
+               
+            }
+            
+        }
+
+        function telaM() {
+            if (window.innerWidth >= 768){
+                men.style.display = 'block';
+            }
+            else {
+                men.style.display = 'none';
+            }
+        
+        }
+    </script>
+</body>
+</html>

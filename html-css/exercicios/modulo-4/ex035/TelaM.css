@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) {
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    li > a {
+        display: inline-block;
+        padding: 5px 18px;
+       
+    }
+    li {
+        display: inline-block;
+        border-radius: 5px 5px 0 0;
+    }
+}

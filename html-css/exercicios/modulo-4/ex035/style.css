@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ :root {
+    --font1: #394646;
+    --font2: #0000005c;
+    --font3: #D1F5FF;
+    --font4: #EEF8FF;
+    --font5: #794ee7e6;
+
+ }
+
+body {
+   height: 100vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: var(--font1);
+   
+}
+
+header {
+    background-color: var(--font2);
+}
+
+header h1 {
+    color: var(--font5);
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.material-symbols-outlined {
+    color: var(--font4);
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    background-color: var(--font3);
+    color: var(--font2);
+}
+
+menu {
+    display: none;
+}
+
+header ul {
+    text-decoration: none;
+}
+
+li {
+    background-color: var(--font5);
+    font-size: 1.3em;
+
+}
+
+li > a {
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+header a { 
+    text-decoration: none;
+    color: var(--font1);
+    
+}
+
+header a:hover {
+    background-color: var(--font3);
+    color: var(--font5);
+}
+
+
+main {
+    width: 98vw;
+    max-width: 778px;
+    background-color: var(--font4);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+article {
+    padding: 10px;
+}
+
+article h2 {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0 10px 0;
+    text-indent: 20px;
+    text-align: justify;
+} 
+
+
