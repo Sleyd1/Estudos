@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    section#login {
+        width: 85vw;
+    }
+
+    div#info {
+        float: right;
+    }
+
+    div#imag > img {
+        display: none;
+    }
+
+
+    div#imag {
+        display: block;
+        background-image: url(imagem/pexels-ip-creative.jpg);
+        width: 300px;
+        height: 99%;
+        float: left;
+    }
+}
+
