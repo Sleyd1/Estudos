@@ -51,6 +51,7 @@
 
 
 @media screen and (min-width: 1025px) {
+    
     body{
         background-image: linear-gradient(to top, #B0DB43, #E9F1F7);
     }
