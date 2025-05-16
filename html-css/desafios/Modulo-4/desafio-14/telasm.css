@@ -22,7 +22,34 @@
         width: 35%;
         height: 100%;
     }
+
+    div#info > h1 {
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+
 }
+    div#info > p {
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+    div#info > p {
+    font-size: 1em;
+    }
+
+    div.corf {
+    background-color: #72BDA3;
+    }
+
+    div.corf > input {
+    border: 1px solid #72BDA3;
+    }
+
+
+}
+
+
 @media screen and (min-width: 1025px) {
     body{
         background-image: linear-gradient(to top, #B0DB43, #E9F1F7);
@@ -45,6 +72,26 @@
         float: left;
         width: 45%;
         height: 100%;
+    }
+
+    div#info > h1 {
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+
+    }
+
+    div#info > p {
+    font-size: 1em;
+     padding: 15px 10px 10px 10px;
+
+    }
+
+    div.corf {
+    background-color: #72BDA3;
+    }
+
+    div.corf > input {
+    border: 1px solid #72BDA3;
     }
 
 }

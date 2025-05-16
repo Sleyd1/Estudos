@@ -50,4 +50,63 @@ div#info > h1 {
 div#info > p {
     text-align: justify;
     padding: 5px 10px 5px 10px;
+    font-size: .8em;
+}
+
+div.corf {
+    background-color: #C89F9C;
+    margin: 5px 3px;
+    display: block;
+    height: 31px;
+    border-radius: 10px;
+}
+
+div.corf span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    transform: translate(5px, 2.4px);
+    
+}
+
+div.corf > input {
+
+    display: inline-block;
+    width: calc(100% - 40px);
+    height: 29px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #C89F9C;
+    transform: translate(30px, -29px);
+    
+}
+
+
+form > input[type=submit] {
+    display: block;
+    text-align: center;
+    width: 90%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.082);
+    margin: 10px auto 10px auto;
+    cursor: pointer;
+    
+}
+
+form > input[type=submit]:hover {
+    background-color: #EED7C5 ;
+    transition: .1s;
+}
+
+form > a {
+    display: block;
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+    text-align: center;
+}
+
+form > a:hover {
+    text-decoration: underline;
 }
