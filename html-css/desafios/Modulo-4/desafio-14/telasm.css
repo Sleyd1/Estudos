@@ -1,26 +1,51 @@
 @charset "UTF-8";
 
-@media (min-width: 768px) and (max-width: 1024px) {
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background-image: linear-gradient(to top, #B0DB43, #E9F1F7);
+    }
+    
     section#login {
-        width: 85vw;
+        width: 90vw;
     }
 
     div#info {
         float: right;
+        width: 65%;
+        height: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
-    div#imag > img {
-        display: none;
-    }
-
-
     div#imag {
-        display: block;
         background-image: url(imagem/pexels-ip-creative.jpg);
-        width: 300px;
-        height: 99%;
         float: left;
+        width: 35%;
+        height: 100%;
     }
+}
+@media screen and (min-width: 1025px) {
+    body{
+        background-image: linear-gradient(to top, #B0DB43, #E9F1F7);
+    }
+    
+    section#login {
+        width: 945px;
+
+    }
+
+    div#info {
+        float: right;
+        width: 55%;
+        height: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div#imag {
+        background-image: url(imagem/pexels-ip-creative.jpg);
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
 }
 
