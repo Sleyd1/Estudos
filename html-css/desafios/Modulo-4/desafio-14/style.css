@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+}
+
+section {
+
+    width: 300px;
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+img {
+    width: 300px;
+}
+
+section#login h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+section#login p {
+    padding: 10px;
+    text-align: justify;
+}
+
+input {
+    height: 35px;
+}
+
+svg {
+    position: relative;
+    top: 7px;
+}
+
+span {
+    position: relative;
+    top: 7px;
+    color: blueviolet;
+}
+
+.inp {
+    border: 2px solid blueviolet ;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    
+
+}
+
+.corf {
+    background-color: blueviolet;
+    border-radius: 10px;
+    
+    margin-top: 5px;
+    width: 295px;
+    height: 36px;
+}
+
+.estilof {
+    display: block;
+    margin: auto;
+    margin-top: 4px;
+    width: 290px;
+    border-radius: 20px;
+}
+
