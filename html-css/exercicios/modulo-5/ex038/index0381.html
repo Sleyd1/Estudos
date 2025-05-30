@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento nos eixos Flexbox</title>
+   <style>
+    /*
+    align-items: alinha os itens ao longo do eixo transversal(cross-axis) (vertical por padrão).
+
+    Valores de align-items:
+
+    flex-start: alinha os itens no início do contêiner
+
+    flex-end: alinha os itens no final do contêiner
+
+    center: alinha os itens no centro do contêiner
+
+    baseline: alinha os itens na linha de base do contêiner
+
+    stretch: estica os itens para preencher o contêiner
+
+    */
+    #conteiner {
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            align-items: center; /* Alinha os itens no centro do eixo transversal */
+
+            height: 300px;
+        }
+        .filho {
+            background-color: antiquewhite;
+            margin: 5px;
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="filho">A</div>
+        <div class="filho">B</div>
+        <div class="filho">C</div>
+    </div>
+    
+</body>
+</html>
