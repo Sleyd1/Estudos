@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        #container-pai {
+            background-color: blue;
+            width: 80vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        /* 
+
+        Se você quiser que o filho quebre a linha, pode usar flex-wrap: wrap;
+
+        Se você quiser que o filho não quebre a linha, pode usar flex-wrap: nowrap;
+
+        */
+
+        #container-filho {
+            background-color: red;
+            width: 90px;
+            height: 90px;
+        }
+
+        /*
+        elemento filho centralizado de acordo com o tamanho do pai
+
+        */
+    </style>
+</head>
+<body>
+    <div id="container-pai">
+        <div id="container-filho">
+            
+        </div>
+    </div>
+</body>
+</html>
