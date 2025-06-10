@@ -20,9 +20,9 @@
             width: 80vw;
             height: 80vh;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            
         }
         /*
         align-content: center;
@@ -32,7 +32,7 @@
         align-content: space-around;
         align-content: space-evenly;
         align-content: stretch;
-
+        para o align-content funcionar, é necessário que o pai tenha mais de uma linha de filhos. entao defenimos o flex-wrap: wrap;
 
         a diferença entre align-items e align-content é que o align-items alinha os filhos dentro do pai, enquanto o align-content alinha o conteúdo do pai em relação ao espaço disponível.
         
@@ -47,7 +47,7 @@
 
         */
 
-        #container-filho {
+        .container-filho {
             background-color: red;
             width: 90px;
             height: 90px;
@@ -61,9 +61,11 @@
 </head>
 <body>
     <div id="container-pai">
-        <div id="container-filho">
-            
-        </div>
+        <div class="container-filho">A</div>
+        <div class="container-filho">A</div>
+        <div class="container-filho">A</div>
+        <div class="container-filho">A</div>
+        <div class="container-filho">A</div>
     </div>
 </body>
 </html>
