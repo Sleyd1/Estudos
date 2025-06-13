@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            border: #f5c20c 2px solid;
+            height: 250px;
+        }
+
+        #item {
+            order: 10;
+            background-color: #0cd545;
+            padding: 10px;
+        }
+
+        #item2 {
+            order: 2;
+            background-color: #f5c20c;
+            padding: 10px;
+            align-self: stretch;
+        }
+
+        #item3 {
+            order: 4;
+            background-color: #0c7df5;
+            padding: 10px;
+            align-self: flex-end;
+        }
+
+        /*
+        aligne-self valores
+        flex-start: Alinha o item no início do container flexível.
+        flex-end: Alinha o item no final do container flexível.
+        center: Centraliza o item dentro do container flexível.
+
+        align-self: Permite que um item flexível seja alinhado de forma diferente em relação aos outros itens no mesmo container flexível.
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="item">Item 1</div>
+        <div id="item2">Item 2</div>
+        <div id="item3">Item 3</div>
+    </div>  
+</body>
+</html>
